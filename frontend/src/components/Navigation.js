@@ -12,10 +12,9 @@ export default class Navigation extends Component {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div className="navbar-nav">
-                            <Link className="nav-link" to="/topVentas">Top 10 en ventas</Link>
-                            <Link className="nav-link" to="/topClientes">Estadísticas</Link>
+                            <Link className="nav-link" to="/topVentas">Top 10 tiendas mas visitadas</Link>
+                            <Link className="nav-link" to="/topClientes">Top 20 en ventas </Link>
                             <Link className="nav-link" to="/topArea">Top 5 en espacio</Link>
-
                         </div>
                     </div>
                 </div>
