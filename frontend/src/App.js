@@ -6,8 +6,8 @@ import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import 'bootstrap/dist/js/bootstrap.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ShowTopArea from './components/ShowTop';
-//import ShowTopMasClientes from './components/ShowTopMasClientes';
-//import ShowTopVentas from './components/ShowTopVentas';
+import ShowTopVentas from './components/ShowTopVentas';
+import ShowTopClientes from './components/ShowTopClientes';
 
 function App() {
   return (
@@ -15,8 +15,8 @@ function App() {
      <Navigation/>
      <Routes>
        <Route path="/topArea" element={<ShowTopArea/>} />
-       <Route path="/topClientes" element={<div>Lista de Profesores</div>} />
-       <Route path="/topVentas" element={<div>Lista de Profesores</div>} /> 
+       <Route path="/topClientes" element={<ShowTopClientes/>} />
+       <Route path="/topVentas" element={<ShowTopVentas/>}  /> 
 
       </Routes>
     </Router>
